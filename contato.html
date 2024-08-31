@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Configura a visualização para dispositivos móveis, garantindo que o site se ajuste ao tamanho da tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página que será exibido na aba do navegador -->
+    <title>Contato</title>
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Cabeçalho da página, contendo o menu de navegação -->
+    <header>
+        <nav>
+             <!-- Lista de navegação, onde cada item é um link para outra página do site -->
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Conteúdo principal da página -->
+    <main>
+        <!-- Título principal da seção de contato -->
+        <h1>Contato</h1>
+        <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+ <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Valmir D. Macedo Jr.</p>
+    </footer>
+</body>
+</html>
